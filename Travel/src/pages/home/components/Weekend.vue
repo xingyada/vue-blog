@@ -2,7 +2,7 @@
     <div>
         <div class="title">周末游</div>
         <ul>
-            <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+            <li class="item border-bottom" v-for="item of list" :key="item.id">
                 <div class="item-img-wrapper">
                     <img class="item-img" :src='item.imgUrl' />
                 </div>
@@ -18,19 +18,12 @@
 <script>
     export default {
         name: 'HomeWeekend',
+        props:{
+            list:Array
+        },
         data: function () {
             return {
-                recommendList: [{
-                    id: '0001',
-                    imgUrl: 'https://dimg07.c-ctrip.com/images/w30i0o000000enulf6C20.jpg_Z_800_600.jpg',
-                    title: '地名1',
-                    desc: '地名的一个简单介绍sdkbksksjbksbksdjhskksjbkbvdkbk啊啊啊啊啊啊啊啊'
-                }, {
-                    id: '0002',
-                    imgUrl: 'https://dimg07.c-ctrip.com/images/w30i0o000000enulf6C20.jpg_Z_800_600.jpg',
-                    title: '地名2',
-                    desc: '地名的一个简单介绍sdkbksksjbksbksdjhskksjbkbvdkbk啊啊啊啊啊啊啊啊'
-                }]
+                
             }
         }
     }

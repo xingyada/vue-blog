@@ -2,11 +2,11 @@
     <div>
         <div class="title">热销推荐</div>
         <ul>
-            <li class="item border-bottom" v-for="list in recommendList" :key = "list.id">
-                <img class="item-img" :src="list.imgUrl" />
+            <li class="item border-bottom" v-for="item in list" :key = "item.id">
+                <img class="item-img" :src="item.imgUrl" />
                 <div class="item-info">
-                    <p class="item-title">{{list.title}}</p>
-                    <p class="item-desc">{{list.desc}}</p>
+                    <p class="item-title">{{item.title}}</p>
+                    <p class="item-desc">{{item.desc}}</p>
                     <button class="item-button">查看详情</button>
                 </div>
             </li>
@@ -16,24 +16,11 @@
 <script>
     export default {
         name : 'HomeRecommend',
+        props: {
+            list: Array
+            },
         data (){
-            return {
-                recommendList : [{
-                    id: 'recom001',
-                    imgUrl: 'http://imgs.qunarzz.com/ftejia/1806/f9/8a23740f5a6f86.jpg',
-                    title: '地名',
-                    desc: '一个简单的介绍，总部设在驻马店，十一人民九个骗啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊'
-                }, {
-                    id: 'recom002',
-                    imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-                    title: '故宫',
-                    desc: '一个简单的介绍，总部设在驻马店，十一人民九个骗啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊'
-                }, {
-                    id: 'recom003',
-                    imgUrl: 'http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_250x250_ecfa0df2.jpg',
-                    title: '水立方',
-                    desc: '一个简单的介绍，总部设在驻马店，十一人民九个骗啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊'
-                }]
+            return {     
             }
         }
     }
