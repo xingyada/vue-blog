@@ -1,0 +1,95 @@
+{
+    "ret": true,
+    "data": {
+        "swiperList": [
+            {
+                "id":"0001",
+                "imgUrl":"https://img.nike.com.hk/resources/template/heroProductRotatingModule/20181204180953.jpg"
+            },
+            {
+                "id": "0002",
+                "imgUrl": "https://img.nike.com.hk/resources/template/heroProductRotatingModule/20181129102030.jpg"
+            }
+        ],
+        "iconList": [
+            {
+                    "id": "0001",
+                    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+                    "desc": "红门'"            },
+            {
+                    "id": "0002",
+                    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+                    "desc": "红门2"
+            },
+            {
+                    "id": "0003",
+                    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+                    "desc": "红门2"
+            },
+            {
+                    "id": "0004",
+                    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1811/5e/c640ec3b7d7ae802.png",
+                    "desc": "红门2"
+            },
+            {
+                    "id": "0005",
+                    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1811/f6/e54fad3ea337b02.gif",
+                    "desc": "红门2"
+            },
+            {
+                    "id": "0006",
+                    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+                    "desc": "红门2"
+            },
+            {
+                    "id": "0007",
+                    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/fa/2548667cb6e902.png",
+                    "desc": "红门红门红门红门"
+            },
+            {
+                    "id": "0008",
+                    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+                    "desc": "红门8"
+            },
+            {
+                    "id": "0009",
+                    "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png",
+                    "desc": "红门2"
+            }
+        ],
+        "weekendList": [
+            {
+                    "id": "0001",
+                    "imgUrl": "https://dimg07.c-ctrip.com/images/w30i0o000000enulf6C20.jpg_Z_800_600.jpg",
+                    "title": "地名1",
+                    "desc": "地名的一个简单介绍sdkbksksjbksbksdjhskksjbkbvdkbk啊啊啊啊啊啊啊啊"
+            },
+            {
+                    "id": "0002",
+                    "imgUrl": "https://dimg07.c-ctrip.com/images/w30i0o000000enulf6C20.jpg_Z_800_600.jpg",
+                    "title": "地名2",
+                    "desc": "地名的一个简单介绍sdkbksksjbksbksdjhskksjbkbvdkbk啊啊啊啊啊啊啊啊"
+            }
+        ],
+        "recommendList":[
+            {
+                    "id": "recom001",
+                    "imgUrl": "http://imgs.qunarzz.com/ftejia/1806/f9/8a23740f5a6f86.jpg",
+                    "title": "地名",
+                    "desc": "一个简单的介绍，总部设在驻马店，十一人民九个骗啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+            },
+            {
+                    "id": "recom002",
+                    "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg",
+                    "title": "故宫",
+                    "desc": "一个简单的介绍，总部设在驻马店，十一人民九个骗啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+            },
+            {
+                    "id": "recom003",
+                    "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_250x250_ecfa0df2.jpg",
+                    "title": "水立方",
+                    "desc": "一个简单的介绍，总部设在驻马店，十一人民九个骗啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+            }
+        ]
+    }
+}
