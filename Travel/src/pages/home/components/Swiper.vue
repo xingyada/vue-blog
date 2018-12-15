@@ -1,13 +1,8 @@
 <template>
     <div class="swiperDiv">
-        <swiper :options="swiperOption">
-            <swiper-slide>
-                <img class="swiper-img" src="https://img.nike.com.hk/resources/template/heroProductRotatingModule/20181204180953.jpg"
-                    alt="">
-            </swiper-slide>
-            <swiper-slide>
-                <img class="swiper-img" src="https://img.nike.com.hk/resources/template/heroProductRotatingModule/20181129102030.jpg"
-                    alt="">
+        <swiper :options="swiperOption" v-if="showSwiper">
+            <swiper-slide v-for="item of list" :key="item.id">
+                <img class="swiper-img" :src="item.imgUrl" />
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
@@ -17,6 +12,9 @@
 <script>
     export default {
         name: 'HomeSwiper',
+        props:{
+            list:Array
+        },
         data: function () {
             return {
                 swiperOption: {
@@ -25,6 +23,11 @@
                 }
             }
         },
+        computed:{
+            showSwiper(){
+                return  this.list.length
+            }
+        }
     }
 </script>
 
